@@ -434,7 +434,7 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 SHARED_DIR:STRING=(not set)
 
 //Name of the computer/site where compile is being run
-SITE:STRING=b753d22a91b8
+SITE:STRING=468d53a54fa9
 
 //Value Computed by CMake
 openttd_BINARY_DIR:STATIC=/src/build
