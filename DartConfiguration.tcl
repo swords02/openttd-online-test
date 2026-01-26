@@ -11,7 +11,7 @@ BuildDirectory: /src/build
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: bf54de7f372d
+Site: 0872f3afc836
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Emscripten-em++

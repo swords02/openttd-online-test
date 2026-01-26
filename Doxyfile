@@ -1,7 +1,7 @@
 # This file is part of OpenTTD.
 # OpenTTD is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
 # OpenTTD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenTTD. If not, see <https://www.gnu.org/licenses/old-licenses/gpl-2.0>.
+# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenTTD. If not, see <http://www.gnu.org/licenses/>.
 
 # Doxyfile 1.9.4
 
@@ -45,7 +45,7 @@ PYTHON_DOCSTRING       = YES
 INHERIT_DOCS           = YES
 SEPARATE_MEMBER_PAGES  = NO
 TAB_SIZE               = 2
-ALIASES                = important="@attention" # @important is available in newer versions of doxygen.
+ALIASES                =
 OPTIMIZE_OUTPUT_FOR_C  = YES
 OPTIMIZE_OUTPUT_JAVA   = NO
 OPTIMIZE_FOR_FORTRAN   = NO
@@ -118,12 +118,11 @@ WARNINGS               = YES
 WARN_IF_UNDOCUMENTED   = YES
 WARN_IF_DOC_ERROR      = YES
 WARN_IF_INCOMPLETE_DOC = YES
-WARN_NO_PARAMDOC       = YES
-WARN_IF_UNDOC_ENUM_VAL = YES
+WARN_NO_PARAMDOC       = NO
 WARN_AS_ERROR          = NO
 WARN_FORMAT            = "$file:$line: $text"
 WARN_LINE_FORMAT       = "at line $line of file $file"
-WARN_LOGFILE           = 
+WARN_LOGFILE           =
 #---------------------------------------------------------------------------
 # Configuration options related to the input files
 #---------------------------------------------------------------------------
@@ -135,9 +134,7 @@ FILE_PATTERNS          = *.c \
                          *.cpp \
                          *.c++ \
                          *.h \
-                         *.hpp \
-                         *.mm \
-	                     *.m
+                         *.hpp
 RECURSIVE              = YES
 EXCLUDE                =
 EXCLUDE_SYMLINKS       = NO
@@ -320,7 +317,6 @@ PREDEFINED             = WITH_ZLIB \
                          WITH_HARFBUZZ \
                          WITH_ICU_I18N \
                          UNICODE \
-                         DOXYGEN_API \
                          _UNICODE \
                          _GNU_SOURCE \
                          FINAL=
