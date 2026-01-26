@@ -10,7 +10,7 @@
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = "OpenTTD Source"
-PROJECT_NUMBER         = 15.0
+PROJECT_NUMBER         = 20251101-main-m54e0b9e347
 PROJECT_BRIEF          =
 PROJECT_LOGO           =
 OUTPUT_DIRECTORY       = /src/build/docs/source/
@@ -45,7 +45,7 @@ PYTHON_DOCSTRING       = YES
 INHERIT_DOCS           = YES
 SEPARATE_MEMBER_PAGES  = NO
 TAB_SIZE               = 2
-ALIASES                =
+ALIASES                = important="@attention" # @important is available in newer versions of doxygen.
 OPTIMIZE_OUTPUT_FOR_C  = YES
 OPTIMIZE_OUTPUT_JAVA   = NO
 OPTIMIZE_FOR_FORTRAN   = NO
@@ -118,11 +118,12 @@ WARNINGS               = YES
 WARN_IF_UNDOCUMENTED   = YES
 WARN_IF_DOC_ERROR      = YES
 WARN_IF_INCOMPLETE_DOC = YES
-WARN_NO_PARAMDOC       = NO
+WARN_NO_PARAMDOC       = YES
+WARN_IF_UNDOC_ENUM_VAL = YES
 WARN_AS_ERROR          = NO
 WARN_FORMAT            = "$file:$line: $text"
 WARN_LINE_FORMAT       = "at line $line of file $file"
-WARN_LOGFILE           =
+WARN_LOGFILE           = 
 #---------------------------------------------------------------------------
 # Configuration options related to the input files
 #---------------------------------------------------------------------------
@@ -134,7 +135,9 @@ FILE_PATTERNS          = *.c \
                          *.cpp \
                          *.c++ \
                          *.h \
-                         *.hpp
+                         *.hpp \
+                         *.mm \
+	                     *.m
 RECURSIVE              = YES
 EXCLUDE                =
 EXCLUDE_SYMLINKS       = NO
@@ -317,6 +320,7 @@ PREDEFINED             = WITH_ZLIB \
                          WITH_HARFBUZZ \
                          WITH_ICU_I18N \
                          UNICODE \
+                         DOXYGEN_API \
                          _UNICODE \
                          _GNU_SOURCE \
                          FINAL=
