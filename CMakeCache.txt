@@ -58,7 +58,7 @@ CMAKE_C_FLAGS:UNINITIALIZED=-pthread -fno-lto
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=-pthread -fno-lto -sPROXY_POSIX_SOCKETS -sPROXY_TO_PTHREAD -sWEBSOCKET_URL=wss://ws-test.openttdonline.com -lwebsocket.js
+CMAKE_EXE_LINKER_FLAGS:STRING=-pthread -fno-lto -sFORCE_FILESYSTEM=1 -sPROXY_POSIX_SOCKETS -sPROXY_TO_PTHREAD -sWEBSOCKET_URL=wss://ws-test.openttdonline.com -lwebsocket.js
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -440,7 +440,7 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 SHARED_DIR:STRING=(not set)
 
 //Name of the computer/site where compile is being run
-SITE:STRING=d79283c68b7b
+SITE:STRING=f5028467fe25
 
 //Value Computed by CMake
 openttd_BINARY_DIR:STATIC=/src/build
