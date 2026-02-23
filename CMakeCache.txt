@@ -159,13 +159,13 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=openttd
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=16.0
+CMAKE_PROJECT_VERSION:STATIC=15.2
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=16
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=15
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=0
+CMAKE_PROJECT_VERSION_MINOR:STATIC=2
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_PATCH:STATIC=
@@ -324,6 +324,9 @@ Harfbuzz_INCLUDE_DIR:PATH=Harfbuzz_INCLUDE_DIR-NOTFOUND
 //Path to a library.
 Harfbuzz_LIBRARY:FILEPATH=Harfbuzz_LIBRARY-NOTFOUND
 
+//Path to a program.
+LSB_RELEASE_EXEC:FILEPATH=LSB_RELEASE_EXEC-NOTFOUND
+
 //Path to a file.
 LZO_INCLUDE_DIR:PATH=LZO_INCLUDE_DIR-NOTFOUND
 
@@ -351,26 +354,11 @@ OPTION_DEDICATED:BOOL=OFF
 //Build only docs target
 OPTION_DOCS_ONLY:BOOL=OFF
 
-//File to write doxygen warnings from AI docs into (if empty warnings
-// are written to standard error)
-OPTION_DOXYGEN_AI_WARN_FILE:BOOL=OFF
-
-//File to write doxygen warnings from game script docs into (if
-// empty warnings are written to standard error)
-OPTION_DOXYGEN_GS_WARN_FILE:BOOL=OFF
-
-//File to write doxygen warnings into (if empty warnings are written
-// to standard error)
-OPTION_DOXYGEN_WARN_FILE:BOOL=OFF
-
 //Always produce ANSI-colored output (GNU/Clang only).
 OPTION_FORCE_COLORED_OUTPUT:BOOL=OFF
 
 //Install with Filesystem Hierarchy Standard folders
 OPTION_INSTALL_FHS:BOOL=ON
-
-//Print line number in doxygen warnings
-OPTION_LINE_IN_DOXYGEN_WARNINGS:BOOL=ON
 
 //Copy dependencies into lib/ for easy packaging (Linux only)
 OPTION_PACKAGE_DEPENDENCIES:BOOL=OFF
@@ -446,7 +434,7 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 SHARED_DIR:STRING=(not set)
 
 //Name of the computer/site where compile is being run
-SITE:STRING=1cc752d447c1
+SITE:STRING=86bcffd799b1
 
 //Value Computed by CMake
 openttd_BINARY_DIR:STATIC=/src/build
