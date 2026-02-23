@@ -37,7 +37,7 @@ CMAKE_COLOR_MAKEFILE:BOOL=ON
 CMAKE_CROSSCOMPILING_EMULATOR:UNINITIALIZED=/emsdk/node/16.20.0_64bit/bin/node
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=-pthread -fno-lto
+CMAKE_CXX_FLAGS:STRING=
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -51,14 +51,11 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//No help, variable specified on the command line.
-CMAKE_C_FLAGS:UNINITIALIZED=-pthread -fno-lto
-
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=-pthread -fno-lto -sPROXY_POSIX_SOCKETS -sPROXY_TO_PTHREAD -sWEBSOCKET_URL=wss://ws-test.openttdonline.com -sFORCE_FILESYSTEM=1 -lwebsocket.js -lsockfs.js
+CMAKE_EXE_LINKER_FLAGS:STRING=
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -119,9 +116,6 @@ CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
 
 //Read-only single-machine data (etc)
 CMAKE_INSTALL_SYSCONFDIR:PATH=etc
-
-//No help, variable specified on the command line.
-CMAKE_INTERPROCEDURAL_OPTIMIZATION:UNINITIALIZED=OFF
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -440,7 +434,7 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 SHARED_DIR:STRING=(not set)
 
 //Name of the computer/site where compile is being run
-SITE:STRING=b54603b6d1f0
+SITE:STRING=49f51be09cfb
 
 //Value Computed by CMake
 openttd_BINARY_DIR:STATIC=/src/build
