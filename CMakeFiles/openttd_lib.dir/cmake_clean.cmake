@@ -191,8 +191,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/openttd_lib.dir/src/fios_gui.cpp.o.d"
   "CMakeFiles/openttd_lib.dir/src/fontcache.cpp.o"
   "CMakeFiles/openttd_lib.dir/src/fontcache.cpp.o.d"
-  "CMakeFiles/openttd_lib.dir/src/fontcache/freetypefontcache.cpp.o"
-  "CMakeFiles/openttd_lib.dir/src/fontcache/freetypefontcache.cpp.o.d"
   "CMakeFiles/openttd_lib.dir/src/fontcache/spritefontcache.cpp.o"
   "CMakeFiles/openttd_lib.dir/src/fontcache/spritefontcache.cpp.o.d"
   "CMakeFiles/openttd_lib.dir/src/fontcache/truetypefontcache.cpp.o"

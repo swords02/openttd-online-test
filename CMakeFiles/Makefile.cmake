@@ -23,7 +23,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../cmake/CreateRegression.cmake"
   "../cmake/FindAllegro.cmake"
   "../cmake/FindFluidsynth.cmake"
-  "../cmake/FindFontconfig.cmake"
   "../cmake/FindGrfcodec.cmake"
   "../cmake/FindHarfbuzz.cmake"
   "../cmake/FindICU.cmake"

@@ -212,7 +212,6 @@ openttd_EXTERNAL_OBJECTS = \
 "/src/build/CMakeFiles/openttd_lib.dir/src/core/string_consumer.cpp.o" \
 "/src/build/CMakeFiles/openttd_lib.dir/src/core/string_inplace.cpp.o" \
 "/src/build/CMakeFiles/openttd_lib.dir/src/core/utf8.cpp.o" \
-"/src/build/CMakeFiles/openttd_lib.dir/src/fontcache/freetypefontcache.cpp.o" \
 "/src/build/CMakeFiles/openttd_lib.dir/src/fontcache/spritefontcache.cpp.o" \
 "/src/build/CMakeFiles/openttd_lib.dir/src/fontcache/truetypefontcache.cpp.o" \
 "/src/build/CMakeFiles/openttd_lib.dir/src/game/game_config.cpp.o" \
@@ -712,7 +711,6 @@ openttd.html: CMakeFiles/openttd_lib.dir/src/core/string_builder.cpp.o
 openttd.html: CMakeFiles/openttd_lib.dir/src/core/string_consumer.cpp.o
 openttd.html: CMakeFiles/openttd_lib.dir/src/core/string_inplace.cpp.o
 openttd.html: CMakeFiles/openttd_lib.dir/src/core/utf8.cpp.o
-openttd.html: CMakeFiles/openttd_lib.dir/src/fontcache/freetypefontcache.cpp.o
 openttd.html: CMakeFiles/openttd_lib.dir/src/fontcache/spritefontcache.cpp.o
 openttd.html: CMakeFiles/openttd_lib.dir/src/fontcache/truetypefontcache.cpp.o
 openttd.html: CMakeFiles/openttd_lib.dir/src/game/game_config.cpp.o
@@ -1089,7 +1087,6 @@ openttd.html: CMakeFiles/openttd_lib.dir/src/waypoint_gui.cpp.o
 openttd.html: CMakeFiles/openttd_lib.dir/src/widget.cpp.o
 openttd.html: CMakeFiles/openttd_lib.dir/src/window.cpp.o
 openttd.html: CMakeFiles/openttd.dir/build.make
-openttd.html: /emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libfreetype.a
 openttd.html: CMakeFiles/openttd.dir/linklibs.rsp
 openttd.html: CMakeFiles/openttd.dir/objects1.rsp
 openttd.html: CMakeFiles/openttd.dir/link.txt
