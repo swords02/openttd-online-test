@@ -1042,17 +1042,18 @@ CMakeFiles/openttd_lib.dir/src/settings_table.cpp.o: \
   /src/src/tile_cmd.h /src/src/tile_map.h /src/src/window_func.h \
   /src/src/widgets/vehicle_widget.h /src/src/news_func.h \
   /src/src/news_type.h /src/src/industry_type.h /src/src/company_func.h \
-  /src/src/textbuf_gui.h /src/src/string_type.h /src/src/rail_gui.h \
-  /src/src/elrail_func.h /src/src/transparency.h /src/src/error.h \
-  /src/src/town.h /src/src/misc/history_type.hpp \
-  /src/src/viewport_type.h /src/src/town_map.h /src/src/road_map.h \
-  /src/src/house.h /src/src/house_type.h \
-  /src/src/newgrf_animation_type.h /src/src/newgrf_badge_type.h \
-  /src/src/subsidy_type.h /src/src/newgrf_storage.h \
-  /src/src/video/video_driver.hpp /src/src/video/../debug.h \
-  /src/src/video/../cpu.h /src/src/video/../core/format.hpp \
-  /src/src/video/../driver.h /src/src/video/../core/enum_type.hpp \
-  /src/src/video/../string_type.h \
+  /src/src/fontcache.h /src/src/provider_manager.h \
+  /src/src/spritecache_type.h /src/src/textbuf_gui.h \
+  /src/src/string_type.h /src/src/rail_gui.h /src/src/elrail_func.h \
+  /src/src/transparency.h /src/src/error.h /src/src/town.h \
+  /src/src/misc/history_type.hpp /src/src/viewport_type.h \
+  /src/src/town_map.h /src/src/road_map.h /src/src/house.h \
+  /src/src/house_type.h /src/src/newgrf_animation_type.h \
+  /src/src/newgrf_badge_type.h /src/src/subsidy_type.h \
+  /src/src/newgrf_storage.h /src/src/video/video_driver.hpp \
+  /src/src/video/../debug.h /src/src/video/../cpu.h \
+  /src/src/video/../core/format.hpp /src/src/video/../driver.h \
+  /src/src/video/../core/enum_type.hpp /src/src/video/../string_type.h \
   /src/src/video/../core/geometry_type.hpp \
   /src/src/video/../core/math_func.hpp /src/src/video/../gfx_func.h \
   /src/src/video/../settings_type.h /src/src/video/../zoom_type.h \
@@ -1064,7 +1065,6 @@ CMakeFiles/openttd_lib.dir/src/settings_table.cpp.o: \
   /src/src/blitter/factory.hpp /src/src/blitter/base.hpp \
   /src/src/blitter/../spritecache.h /src/src/blitter/../gfx_type.h \
   /src/src/blitter/../spritecache_type.h \
-  /src/src/blitter/../core/enum_type.hpp \
   /src/src/blitter/../spriteloader/spriteloader.hpp \
   /src/src/blitter/../spriteloader/../core/alloc_type.hpp \
   /src/src/blitter/../spriteloader/../core/enum_type.hpp \

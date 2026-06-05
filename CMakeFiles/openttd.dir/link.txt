@@ -1,1 +1,1 @@
-/emsdk/upstream/emscripten/em++ -O3 -DNDEBUG -flto=thin  -rdynamic @CMakeFiles/openttd.dir/objects1.rsp -o openttd.html @CMakeFiles/openttd.dir/linklibs.rsp
+/emsdk/upstream/emscripten/em++ -sUSE_FREETYPE=1 -O3 -DNDEBUG -flto=thin -sUSE_FREETYPE=1 -rdynamic @CMakeFiles/openttd.dir/objects1.rsp -o openttd.html @CMakeFiles/openttd.dir/linklibs.rsp
