@@ -3,18 +3,18 @@ The host system is: Linux - 6.6.87.2-microsoft-standard-WSL2 - x86_64
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
 Change Dir: /src/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6b3c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6b3c.dir/build.make CMakeFiles/cmTC_e6b3c.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b766/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b766.dir/build.make CMakeFiles/cmTC_2b766.dir/build
 gmake[1]: Entering directory '/src/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e6b3c.dir/src.cxx.o
-/emsdk/upstream/emscripten/em++ -DCMAKE_HAVE_LIBC_PTHREAD  -sUSE_FREETYPE=1  -std=c++20 -MD -MT CMakeFiles/cmTC_e6b3c.dir/src.cxx.o -MF CMakeFiles/cmTC_e6b3c.dir/src.cxx.o.d -o CMakeFiles/cmTC_e6b3c.dir/src.cxx.o -c /src/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_2b766.dir/src.cxx.o
+/emsdk/upstream/emscripten/em++ -DCMAKE_HAVE_LIBC_PTHREAD  -sUSE_FREETYPE=1  -std=c++20 -MD -MT CMakeFiles/cmTC_2b766.dir/src.cxx.o -MF CMakeFiles/cmTC_2b766.dir/src.cxx.o.d -o CMakeFiles/cmTC_2b766.dir/src.cxx.o -c /src/build/CMakeFiles/CMakeTmp/src.cxx
 ports:INFO: retrieving port: freetype from https://github.com/emscripten-ports/FreeType/archive/version_1.zip
 ports:INFO: unpacking port: freetype
 cache:INFO: generating port: sysroot/lib/wasm32-emscripten/libfreetype.a... (this will be cached in "/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libfreetype.a" for subsequent builds)
-system_libs:INFO: compiled 52 inputs in 1.30s
+system_libs:INFO: compiled 52 inputs in 1.33s
 cache:INFO:  - ok
-Linking CXX executable cmTC_e6b3c.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6b3c.dir/link.txt --verbose=1
-/emsdk/upstream/emscripten/em++ -sUSE_FREETYPE=1  -sUSE_FREETYPE=1 -rdynamic  @CMakeFiles/cmTC_e6b3c.dir/objects1.rsp -o cmTC_e6b3c.js 
+Linking CXX executable cmTC_2b766.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b766.dir/link.txt --verbose=1
+/emsdk/upstream/emscripten/em++ -sUSE_FREETYPE=1  -sUSE_FREETYPE=1 -rdynamic  @CMakeFiles/cmTC_2b766.dir/objects1.rsp -o cmTC_2b766.js 
 cache:INFO: generating system asset: symbol_lists/7fe120d89c5abc1b23e6aba650b15f27c9e26e93.json... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/7fe120d89c5abc1b23e6aba650b15f27c9e26e93.json" for subsequent builds)
 cache:INFO:  - ok
 gmake[1]: Leaving directory '/src/build/CMakeFiles/CMakeTmp'
@@ -44,19 +44,19 @@ int main(void)
 Performing C++ SOURCE FILE Test LIBLZMA_FOUND succeeded with the following output:
 Change Dir: /src/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df768/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df768.dir/build.make CMakeFiles/cmTC_df768.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f368b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f368b.dir/build.make CMakeFiles/cmTC_f368b.dir/build
 gmake[1]: Entering directory '/src/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_df768.dir/src.cxx.o
-/emsdk/upstream/emscripten/em++ -DLIBLZMA_FOUND  -sUSE_FREETYPE=1 --use-port=contrib.liblzma -std=c++20 -MD -MT CMakeFiles/cmTC_df768.dir/src.cxx.o -MF CMakeFiles/cmTC_df768.dir/src.cxx.o.d -o CMakeFiles/cmTC_df768.dir/src.cxx.o -c /src/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_f368b.dir/src.cxx.o
+/emsdk/upstream/emscripten/em++ -DLIBLZMA_FOUND  -sUSE_FREETYPE=1 --use-port=contrib.liblzma -std=c++20 -MD -MT CMakeFiles/cmTC_f368b.dir/src.cxx.o -MF CMakeFiles/cmTC_f368b.dir/src.cxx.o.d -o CMakeFiles/cmTC_f368b.dir/src.cxx.o -c /src/build/CMakeFiles/CMakeTmp/src.cxx
 ports:INFO: retrieving port: contrib.liblzma from https://github.com/tukaani-project/xz/releases/download/v5.4.6/xz-5.4.6.tar.xz
 ports:INFO: unpacking port: contrib.liblzma
 cache:INFO: generating port: sysroot/lib/wasm32-emscripten/liblzma.a... (this will be cached in "/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/liblzma.a" for subsequent builds)
 root:INFO: building port: contrib.liblzma
-system_libs:INFO: compiled 78 inputs in 0.85s
+system_libs:INFO: compiled 78 inputs in 1.00s
 cache:INFO:  - ok
-Linking CXX executable cmTC_df768.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df768.dir/link.txt --verbose=1
-/emsdk/upstream/emscripten/em++ -sUSE_FREETYPE=1 --use-port=contrib.liblzma -sUSE_FREETYPE=1 -rdynamic  @CMakeFiles/cmTC_df768.dir/objects1.rsp -o cmTC_df768.js 
+Linking CXX executable cmTC_f368b.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f368b.dir/link.txt --verbose=1
+/emsdk/upstream/emscripten/em++ -sUSE_FREETYPE=1 --use-port=contrib.liblzma -sUSE_FREETYPE=1 -rdynamic  @CMakeFiles/cmTC_f368b.dir/objects1.rsp -o cmTC_f368b.js 
 gmake[1]: Leaving directory '/src/build/CMakeFiles/CMakeTmp'
 
 
@@ -67,13 +67,13 @@ Source file was:
 Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
 Change Dir: /src/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c0ed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c0ed.dir/build.make CMakeFiles/cmTC_3c0ed.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_661e6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_661e6.dir/build.make CMakeFiles/cmTC_661e6.dir/build
 gmake[1]: Entering directory '/src/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3c0ed.dir/src.cxx.o
-/emsdk/upstream/emscripten/em++ -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -sUSE_FREETYPE=1  -std=c++17 -std=c++20 -MD -MT CMakeFiles/cmTC_3c0ed.dir/src.cxx.o -MF CMakeFiles/cmTC_3c0ed.dir/src.cxx.o.d -o CMakeFiles/cmTC_3c0ed.dir/src.cxx.o -c /src/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_3c0ed.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c0ed.dir/link.txt --verbose=1
-/emsdk/upstream/emscripten/em++ -sUSE_FREETYPE=1  -std=c++17 -sUSE_FREETYPE=1 -rdynamic  @CMakeFiles/cmTC_3c0ed.dir/objects1.rsp -o cmTC_3c0ed.js 
+Building CXX object CMakeFiles/cmTC_661e6.dir/src.cxx.o
+/emsdk/upstream/emscripten/em++ -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -sUSE_FREETYPE=1  -std=c++17 -std=c++20 -MD -MT CMakeFiles/cmTC_661e6.dir/src.cxx.o -MF CMakeFiles/cmTC_661e6.dir/src.cxx.o.d -o CMakeFiles/cmTC_661e6.dir/src.cxx.o -c /src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_661e6.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_661e6.dir/link.txt --verbose=1
+/emsdk/upstream/emscripten/em++ -sUSE_FREETYPE=1  -std=c++17 -sUSE_FREETYPE=1 -rdynamic  @CMakeFiles/cmTC_661e6.dir/objects1.rsp -o cmTC_661e6.js 
 gmake[1]: Leaving directory '/src/build/CMakeFiles/CMakeTmp'
 
 
@@ -92,13 +92,13 @@ int main() {
 Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
 Change Dir: /src/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_be8b8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_be8b8.dir/build.make CMakeFiles/cmTC_be8b8.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af888/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af888.dir/build.make CMakeFiles/cmTC_af888.dir/build
 gmake[1]: Entering directory '/src/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_be8b8.dir/src.cxx.o
-/emsdk/upstream/emscripten/em++ -DHAVE_CXX_ATOMICS64_WITHOUT_LIB  -sUSE_FREETYPE=1 -std=c++17 -std=c++20 -MD -MT CMakeFiles/cmTC_be8b8.dir/src.cxx.o -MF CMakeFiles/cmTC_be8b8.dir/src.cxx.o.d -o CMakeFiles/cmTC_be8b8.dir/src.cxx.o -c /src/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_be8b8.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be8b8.dir/link.txt --verbose=1
-/emsdk/upstream/emscripten/em++ -sUSE_FREETYPE=1 -std=c++17 -sUSE_FREETYPE=1 -rdynamic  @CMakeFiles/cmTC_be8b8.dir/objects1.rsp -o cmTC_be8b8.js 
+Building CXX object CMakeFiles/cmTC_af888.dir/src.cxx.o
+/emsdk/upstream/emscripten/em++ -DHAVE_CXX_ATOMICS64_WITHOUT_LIB  -sUSE_FREETYPE=1 -std=c++17 -std=c++20 -MD -MT CMakeFiles/cmTC_af888.dir/src.cxx.o -MF CMakeFiles/cmTC_af888.dir/src.cxx.o.d -o CMakeFiles/cmTC_af888.dir/src.cxx.o -c /src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_af888.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af888.dir/link.txt --verbose=1
+/emsdk/upstream/emscripten/em++ -sUSE_FREETYPE=1 -std=c++17 -sUSE_FREETYPE=1 -rdynamic  @CMakeFiles/cmTC_af888.dir/objects1.rsp -o cmTC_af888.js 
 gmake[1]: Leaving directory '/src/build/CMakeFiles/CMakeTmp'
 
 
