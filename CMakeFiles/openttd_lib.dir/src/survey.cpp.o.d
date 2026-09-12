@@ -1205,6 +1205,18 @@ CMakeFiles/openttd_lib.dir/src/survey.cpp.o: \
   /emsdk/upstream/emscripten/cache/sysroot/include/pngconf.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/setjmp.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/bits/setjmp.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/ft2build.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/config/ftheader.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/freetype.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/config/ftconfig.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/config/ftoption.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/config/ftstdlib.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/fttypes.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/ftsystem.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/ftimage.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/fterrors.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/ftmoderr.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/freetype2/fterrdef.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/lzma.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/lzma/version.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/lzma/base.h \

@@ -930,18 +930,13 @@ CMakeFiles/openttd_lib.dir/src/bootstrap_gui.cpp.o: \
   /emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__charconv/to_chars.h \
   /src/src/blitter/../core/format.hpp /src/src/blitter/../string_func.h \
   /src/src/blitter/../string_type.h /src/src/error_func.h \
-  /src/src/3rdparty/fmt/format.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/emscripten.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_asm.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_macros.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_types.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_js.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/promise.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/wget.h \
-  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h \
-  /src/src/network/network.h /src/src/network/network_content.h \
-  /src/src/network/core/tcp_content.h \
+  /src/src/3rdparty/fmt/format.h /src/src/core/geometry_func.hpp \
+  /src/src/error.h /src/src/command_type.h /src/src/economy_type.h \
+  /src/src/core/overflowsafe_type.hpp /src/src/fontcache.h \
+  /src/src/provider_manager.h /src/src/spritecache_type.h \
+  /src/src/gfx_func.h /src/src/network/network.h \
+  /src/src/network/network_content_gui.h \
+  /src/src/network/network_content.h /src/src/network/core/tcp_content.h \
   /src/src/network/core/os_abstraction.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/bits/posix.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/sys/ioctl.h \
@@ -993,26 +988,28 @@ CMakeFiles/openttd_lib.dir/src/bootstrap_gui.cpp.o: \
   /emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__thread/this_thread.h \
   /src/src/network/core/../../debug.h \
   /src/src/network/core/tcp_content_type.h /src/src/network/core/http.h \
-  /src/src/network/../core/container_func.hpp /src/src/openttd.h \
+  /src/src/network/../core/container_func.hpp \
+  /src/src/network/../window_gui.h \
+  /src/src/network/../widgets/network_content_widget.h \
+  /src/src/network/../widgets/../textfile_type.h /src/src/openttd.h \
   /src/src/video/video_driver.hpp /src/src/video/../debug.h \
   /src/src/video/../driver.h /src/src/video/../core/enum_type.hpp \
   /src/src/video/../string_type.h \
   /src/src/video/../core/geometry_type.hpp \
   /src/src/video/../core/math_func.hpp /src/src/video/../gfx_func.h \
-  /src/src/video/../gfx_type.h /src/src/video/../strings_type.h \
   /src/src/video/../settings_type.h /src/src/video/../command_type.h \
-  /src/src/video/../company_type.h /src/src/video/../economy_type.h \
-  /src/src/video/../core/overflowsafe_type.hpp \
-  /src/src/video/../core/pool_type.hpp /src/src/video/../tile_type.h \
   /src/src/video/../timer/timer_game_calendar.h \
   /src/src/video/../timer/timer_game_common.h \
   /src/src/video/../timer/../core/strong_typedef_type.hpp \
-  /src/src/video/../town_type.h /src/src/video/../transport_type.h \
-  /src/src/video/../network/network_type.h /src/src/video/../cargotype.h \
+  /src/src/video/../economy_type.h /src/src/video/../town_type.h \
+  /src/src/video/../core/pool_type.hpp \
+  /src/src/video/../transport_type.h \
+  /src/src/video/../network/network_type.h \
+  /src/src/video/../company_type.h /src/src/video/../cargotype.h \
   /src/src/video/../cargo_type.h \
   /src/src/video/../core/strong_typedef_type.hpp \
-  /src/src/video/../newgrf_callbacks.h \
-  /src/src/video/../landscape_type.h \
+  /src/src/video/../gfx_type.h /src/src/video/../newgrf_callbacks.h \
+  /src/src/video/../strings_type.h /src/src/video/../landscape_type.h \
   /src/src/video/../core/bitmath_func.hpp \
   /src/src/video/../linkgraph/linkgraph_type.h \
   /src/src/video/../linkgraph/../core/pool_type.hpp \
@@ -1033,4 +1030,15 @@ CMakeFiles/openttd_lib.dir/src/bootstrap_gui.cpp.o: \
   /src/src/video/../network/../company_type.h \
   /src/src/video/../network/../string_type.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/condition_variable \
-  /emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__stop_token/stop_callback.h
+  /emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__stop_token/stop_callback.h \
+  /src/src/window_func.h /src/src/widgets/bootstrap_widget.h \
+  /src/build/generated/table/strings.h /src/src/safeguards.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/emscripten.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_asm.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_macros.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_types.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_js.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/promise.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/wget.h \
+  /emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h

@@ -199,6 +199,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/src/build/CMakeFiles/openttd_lib.dir/cmake_pch.hxx" "CMakeFiles/openttd_lib.dir/src/fios_gui.cpp.o" "gcc" "CMakeFiles/openttd_lib.dir/src/fios_gui.cpp.o.d"
   "/src/src/fontcache.cpp" "CMakeFiles/openttd_lib.dir/src/fontcache.cpp.o" "gcc" "CMakeFiles/openttd_lib.dir/src/fontcache.cpp.o.d"
   "/src/build/CMakeFiles/openttd_lib.dir/cmake_pch.hxx" "CMakeFiles/openttd_lib.dir/src/fontcache.cpp.o" "gcc" "CMakeFiles/openttd_lib.dir/src/fontcache.cpp.o.d"
+  "/src/src/fontcache/freetypefontcache.cpp" "CMakeFiles/openttd_lib.dir/src/fontcache/freetypefontcache.cpp.o" "gcc" "CMakeFiles/openttd_lib.dir/src/fontcache/freetypefontcache.cpp.o.d"
+  "/src/build/CMakeFiles/openttd_lib.dir/cmake_pch.hxx" "CMakeFiles/openttd_lib.dir/src/fontcache/freetypefontcache.cpp.o" "gcc" "CMakeFiles/openttd_lib.dir/src/fontcache/freetypefontcache.cpp.o.d"
   "/src/src/fontcache/spritefontcache.cpp" "CMakeFiles/openttd_lib.dir/src/fontcache/spritefontcache.cpp.o" "gcc" "CMakeFiles/openttd_lib.dir/src/fontcache/spritefontcache.cpp.o.d"
   "/src/build/CMakeFiles/openttd_lib.dir/cmake_pch.hxx" "CMakeFiles/openttd_lib.dir/src/fontcache/spritefontcache.cpp.o" "gcc" "CMakeFiles/openttd_lib.dir/src/fontcache/spritefontcache.cpp.o.d"
   "/src/src/fontcache/truetypefontcache.cpp" "CMakeFiles/openttd_lib.dir/src/fontcache/truetypefontcache.cpp.o" "gcc" "CMakeFiles/openttd_lib.dir/src/fontcache/truetypefontcache.cpp.o.d"
